@@ -1,0 +1,16 @@
+.skill {
+    width: 1200px;
+    margin-left: 460px;
+    margin-top: 50px;
+    height: 100vh;
+}
+.header-skill
+{
+    color: rgb(25, 25, 102);
+    font-size: 64px;
+    text-decoration: underline #007aff 5px;
+}
+.header-skill-content
+{
+    margin-bottom: 20px;
+}

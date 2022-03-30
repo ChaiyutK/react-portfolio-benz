@@ -29,9 +29,9 @@ const SectionHome = () => {
         while(true)
         {
             setCursor("|");
-            await delay(2200);
+            await delay(2400);
             setCursor("");
-            await delay(500);
+            await delay(300);
         }
     }
     useEffect(()=>{

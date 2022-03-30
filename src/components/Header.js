@@ -28,7 +28,7 @@ const Header = () =>{
                 <IconContext.Provider value={{size:"25"}}>
                     <ul>
                         <li className="sidebar-navbar-item"><a href="#"><BiHome className="sidebar-navbar-item-icon"/><span>Home</span></a></li>
-                        <li className="sidebar-navbar-item"><a href="#"><BsPerson className="sidebar-navbar-item-icon"/><span>About</span></a></li>
+                        <li className="sidebar-navbar-item"><a href="#about"><BsPerson className="sidebar-navbar-item-icon"/><span>About</span></a></li>
                         <li className="sidebar-navbar-item"><a href="#"><HiOutlineDocument className="sidebar-navbar-item-icon"/><span>Portfolio</span></a></li>
                         <li className="sidebar-navbar-item"><a href="#"><GoMail className="sidebar-navbar-item-icon"/><span>Contact</span></a></li>
                     </ul>
