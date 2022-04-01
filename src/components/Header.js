@@ -10,7 +10,7 @@ const Header = () =>{
     const photoUrl ="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.6435-9/119435849_10208170376812745_7754834136294344952_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFvdijxx8kr0tNARA6SJP4QhgQV18LqUJqGBBXXwupQmia6L3pN1CXNHGpwT5U9jzM&_nc_ohc=BtkjMM2i7oQAX-nHYqm&_nc_ht=scontent.fhdy4-1.fna&oh=00_AT8FooyXzROhUcRptaLLfcxMo4XXdYKst7WssrX7sEszzQ&oe=6264B4B2"
     return(
         <header>
-            <div className="sidebar">
+            <div className="sidebar" id="sidebar">
                 <div className="sidebar-profile">
                     <img className="sidebar-profile-image" src={photoUrl} alt="profile" width="104px" height="104px" />
                     <h1>Chaiyut Kongprawat</h1>

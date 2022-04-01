@@ -3,6 +3,7 @@
   background-color: #040b14;
   width: 18%;
   height: 100%;
+  overflow-x: hidden;
 }
 .sidebar-profile-image {
   display: flex;

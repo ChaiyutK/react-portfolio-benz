@@ -34,12 +34,18 @@ const SectionHome = () => {
             await delay(300);
         }
     }
+
+    const closeNav = () =>{
+        document.getElementById("sidebar").style.width = "0";
+        
+    }
     useEffect(()=>{
         cursorTyping()
         typingText()
     },[])
     return (
     <section className='home'>
+        <button className="openbtn" onClick={closeNav}>☰</button>
         <div className="home-image">
             <h1>Chaiyut Kongprawat</h1>
             <p>I'm <span>{textTyping}{cursor}</span></p>
