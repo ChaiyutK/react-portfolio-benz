@@ -1,48 +1,46 @@
 .about {
-    width: 1200px;
-    margin-left: 460px;
-    margin-top: 50px;
-    
+  width: 1200px;
+  margin-left: 20%;
+  margin-top: 50px;
 }
-.header-about
-{
-    color: rgb(25, 25, 102);
-    font-size: 64px;
-    text-decoration: underline #007aff 5px;
+
+.header-about {
+  color: rgb(25, 25, 102);
+  font-size: 64px;
+  text-decoration: underline #007aff 5px;
 }
-.header-about-content
-{
-    margin-bottom: 20px;
+.header-about-content {
+  margin-bottom: 20px;
 }
 .about-content {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .about-content-item {
-    display: block;
-    box-sizing: border-box;
+  display: block;
+  box-sizing: border-box;
 }
-.about-content-item h1{
-    color: rgb(25, 25, 102);
-    font-size: 40px;
+.about-content-item h1 {
+  color: rgb(25, 25, 102);
+  font-size: 40px;
 }
-.about-content-item ul{
-    list-style-type: circle;
-    margin-left: 20px;
-    margin-bottom: 20px;
+.about-content-item ul {
+  list-style-type: circle;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-.about-content-item ul li{
-    margin-top: 20px;
+.about-content-item ul li {
+  margin-top: 20px;
 }
-.aboutimage  {
-    width: 40%;
-    padding-right: 20px;
+.aboutimage {
+  width: 40%;
+  padding-right: 20px;
 }
 .aboutcontent {
-    width: 60%;
+  width: 60%;
 }
-.aboutdetail{
-    width: 50%;
+.aboutdetail {
+  width: 50%;
 }

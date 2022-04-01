@@ -16,11 +16,11 @@ const Header = () =>{
                     <h1>Chaiyut Kongprawat</h1>
                     <IconContext.Provider value={{color:"white",size:"15"}}>
                     <ul className='sidebar-profile-social'>
-                        <li className="sidebar-profile-social-item"><a href="#"><FaGithub/></a></li>
-                        <li className="sidebar-profile-social-item"><a href="#"><FaFacebookF/></a></li>
-                        <li className="sidebar-profile-social-item"><a href="#"><FaInstagram/></a></li>
-                        <li className="sidebar-profile-social-item"><a href="#"><FaTwitter/></a></li>
-                        <li className="sidebar-profile-social-item"><a href="#"><FaLinkedin/></a></li>
+                        <li className="sidebar-profile-social-item"><a href="https://github.com/ChaiyutK" target="_blank"><FaGithub/></a></li>
+                        <li className="sidebar-profile-social-item"><a href="https://www.facebook.com/CkChaiyut" target="_blank"><FaFacebookF/></a></li>
+                        <li className="sidebar-profile-social-item"><a href="https://www.instagram.com/_chaiyut_b/" target="_blank"><FaInstagram/></a></li>
+                        <li className="sidebar-profile-social-item"><a href="https://twitter.com/Xerox22735494" target="_blank"><FaTwitter/></a></li>
+                        <li className="sidebar-profile-social-item"><a href="https://www.linkedin.com/in/chaiyut-ck/" target="_blank"><FaLinkedin/></a></li>
                     </ul>
                     </IconContext.Provider>
                 </div>

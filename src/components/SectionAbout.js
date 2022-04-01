@@ -1,15 +1,18 @@
 
 import React from 'react'
 import './SectionAbout.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
 
 const SectionAbout = () => {
   return (
-    <section id="about" className="about">
+    <section id="about" className="about" data-aos="fade-up">
         <h1 className="header-about">
             About
         </h1>
         <p className='header-about-content'>
-        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+        Hello everyone i'm graduate from prince of Songkla University with Bachelor of Science Major computer of Science Second Class Honors. My major is Computer Science. I'm looking for a job, I'm interested in Web Developer and Game Developer but i open for the others like App Developer.
         </p>
         <div className="about-content">
             <div className="about-content-item aboutimage">
@@ -34,7 +37,7 @@ const SectionAbout = () => {
                 <div className="about-content-item aboutdetail">
                 <ul>
                     <li>Age: 24</li>
-                    <li>Degree: Master</li>
+                    <li>Degree: Bachelor</li>
                     <li>E-mail: benzchaiyut.k@gmail.com</li>
                     <li>Freelance: Available</li>
                 </ul>

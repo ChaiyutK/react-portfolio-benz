@@ -1,7 +1,7 @@
 .sidebar {
-  position:fixed;
+  position: fixed;
   background-color: #040b14;
-  width: 280px;
+  width: 18%;
   height: 100%;
 }
 .sidebar-profile-image {
@@ -11,7 +11,7 @@
   border-radius: 50%;
   margin-top: 15px;
 }
-.sidebar-profile h1{
+.sidebar-profile h1 {
   text-align: center;
   color: white;
 }
@@ -31,13 +31,13 @@
   background-color: #212431;
   border-radius: 50%;
   padding: 7px 10px;
-  vertical-align:middle;
+  vertical-align: middle;
 }
-.sidebar-profile-social-item a:hover{
-background-color: #007aff;
+.sidebar-profile-social-item a:hover {
+  background-color: #007aff;
 }
 
-.sidebar-navbar ul{
+.sidebar-navbar ul {
   list-style-type: none;
 }
 .sidebar-navbar-item {
@@ -46,20 +46,17 @@ background-color: #007aff;
 }
 
 .sidebar-navbar-item a {
-  color:#6f7180;
+  color: #6f7180;
   display: flex;
   text-decoration: none;
 }
-.sidebar-navbar-item a:hover{
-color : white;
+.sidebar-navbar-item a:hover {
+  color: white;
 }
-.sidebar-navbar-item a:hover .sidebar-navbar-item-icon{
-  color:#007aff;
-
+.sidebar-navbar-item a:hover .sidebar-navbar-item-icon {
+  color: #007aff;
 }
 
 .sidebar-navbar-item span {
   margin-left: 10px;
-
 }
-

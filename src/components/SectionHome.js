@@ -39,7 +39,7 @@ const SectionHome = () => {
         typingText()
     },[])
     return (
-    <section>
+    <section className='home'>
         <div className="home-image">
             <h1>Chaiyut Kongprawat</h1>
             <p>I'm <span>{textTyping}{cursor}</span></p>
