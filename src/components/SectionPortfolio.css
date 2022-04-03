@@ -28,5 +28,10 @@
     .portfolio {
         margin-left: 20%;
       }
+      .portfolio-list-item{
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+    }
   }
   
