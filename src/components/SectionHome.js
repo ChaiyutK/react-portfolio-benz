@@ -41,12 +41,12 @@ const SectionHome = () => {
     const openNav = () =>{
         if(document.getElementById("openbtn").innerHTML == "X")
         {
-            document.getElementById("sidebar").style.width = "0";
+            document.getElementById("sidebar").style.transform = "translateX(-20rem)";
             document.getElementById("openbtn").innerHTML = "☰";
         }
         else
         {
-            document.getElementById("sidebar").style.width = "280px";
+            document.getElementById("sidebar").style.transform = "translateX(0rem)";
             document.getElementById("openbtn").innerHTML = "X";
         }
         console.log(checkSidebar);
@@ -58,11 +58,10 @@ const SectionHome = () => {
     },[])
     return (
     <section className='home'>
-        <button className="openbtn" id='openbtn' onClick={openNav}>X</button>
+        <button className="openbtn" id='openbtn' onClick={openNav}>☰</button>
         <div className="home-image">
             <h1>Chaiyut Kongprawat</h1>
             <p>I'm <span>{textTyping}{cursor}</span></p>
-            
         </div>
     </section>
   )

@@ -16,7 +16,7 @@ const SectionAbout = () => {
         </p>
         <div className="about-content">
             <div className="about-content-item aboutimage">
-                <img src="images/homebg.jpg" width="100%" />
+                <img src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t31.18172-8/14500710_10202238536560446_19146877131162990_o.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGNHFDDbwf9wvw0TQzaxLerIg1gWuU6AVciDWBa5ToBVzK-BKkW6xluHemV4-P76PY&_nc_ohc=w0T0ox07hFgAX8pUROy&_nc_ht=scontent.fhdy4-1.fna&oh=00_AT_y1Gxj_Y_NzdHLPEft-AzMZpjGBmbzcIm1RDbDyG5tsQ&oe=626E662A" width="100%" />
             </div>
             <div className="about-content-item aboutcontent">
                 <h1>

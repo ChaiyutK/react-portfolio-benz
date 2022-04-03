@@ -44,3 +44,23 @@
 .aboutdetail {
   width: 50%;
 }
+
+@media only screen and (max-width: 1024px)
+{
+  .aboutimage {
+    width: 100%;
+    padding-right: 0;
+  }
+  .aboutcontent {
+    width: 100%;
+  }
+  .aboutdetail {
+    width: 100%;
+  }
+  .about-content-item ul li {
+    margin-top: 10px;
+  }
+  .about {
+    margin-left: 20%;
+  }
+}
