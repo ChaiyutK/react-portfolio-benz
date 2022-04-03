@@ -1,9 +1,12 @@
 .sidebar {
   position: fixed;
   background-color: #040b14;
-  width: 18%;
+  width: 280px;
   height: 100%;
   overflow-x: hidden;
+  display: block;
+  transition: all 300ms linear;
+  z-index:2;
 }
 .sidebar-profile-image {
   display: flex;

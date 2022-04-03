@@ -13,7 +13,8 @@ const Header = () =>{
             <div className="sidebar" id="sidebar">
                 <div className="sidebar-profile">
                     <img className="sidebar-profile-image" src={photoUrl} alt="profile" width="104px" height="104px" />
-                    <h1>Chaiyut Kongprawat</h1>
+                    <h1>Chaiyut</h1>
+                    <h1>Kongprawat</h1>
                     <IconContext.Provider value={{color:"white",size:"15"}}>
                     <ul className='sidebar-profile-social'>
                         <li className="sidebar-profile-social-item"><a href="https://github.com/ChaiyutK" target="_blank"><FaGithub/></a></li>

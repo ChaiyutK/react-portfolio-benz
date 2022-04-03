@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import './SectionHome.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+AOS.init()
 
 const SectionHome = () => {
     const testText = "Developer";
     const [cursor,setCursor] = useState("|");
     const [textTyping,setTextTyping] = useState("");
+    let checkSidebar = true;
     const delay = ms => new Promise(res => setTimeout(res, ms));
-    
     
     const typingText = async () =>{
         while(true)
@@ -32,11 +35,21 @@ const SectionHome = () => {
             await delay(2400);
             setCursor("");
             await delay(300);
-        }
+        }   
     }
 
-    const closeNav = () =>{
-        document.getElementById("sidebar").style.width = "0";
+    const openNav = () =>{
+        if(document.getElementById("openbtn").innerHTML == "X")
+        {
+            document.getElementById("sidebar").style.width = "0";
+            document.getElementById("openbtn").innerHTML = "☰";
+        }
+        else
+        {
+            document.getElementById("sidebar").style.width = "280px";
+            document.getElementById("openbtn").innerHTML = "X";
+        }
+        console.log(checkSidebar);
         
     }
     useEffect(()=>{
@@ -45,7 +58,7 @@ const SectionHome = () => {
     },[])
     return (
     <section className='home'>
-        <button className="openbtn" onClick={closeNav}>☰</button>
+        <button className="openbtn" id='openbtn' onClick={openNav}>X</button>
         <div className="home-image">
             <h1>Chaiyut Kongprawat</h1>
             <p>I'm <span>{textTyping}{cursor}</span></p>
