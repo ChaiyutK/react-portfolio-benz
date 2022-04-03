@@ -39,7 +39,7 @@ const SectionHome = () => {
     }
 
     const openNav = () =>{
-        if(document.getElementById("openbtn").innerHTML == "X")
+        if(document.getElementById("openbtn").innerHTML == "x")
         {
             document.getElementById("sidebar").style.transform = "translateX(-20rem)";
             document.getElementById("openbtn").innerHTML = "☰";
@@ -47,9 +47,8 @@ const SectionHome = () => {
         else
         {
             document.getElementById("sidebar").style.transform = "translateX(0rem)";
-            document.getElementById("openbtn").innerHTML = "X";
+            document.getElementById("openbtn").innerHTML = "x";
         }
-        console.log(checkSidebar);
         
     }
     useEffect(()=>{
@@ -58,7 +57,7 @@ const SectionHome = () => {
     },[])
     return (
     <section className='home'>
-        <button className="openbtn" id='openbtn' onClick={openNav}>☰</button>
+        <button className="openbtn" id='openbtn' onClick={openNav}>x</button>
         <div className="home-image">
             <h1>Chaiyut Kongprawat</h1>
             <p>I'm <span>{textTyping}{cursor}</span></p>

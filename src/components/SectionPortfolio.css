@@ -1,40 +1,31 @@
-.education {
+.portfolio {
     width: 60vw;
     margin-left: 30%;
     margin-top: 50px;
   }
-  .header-education {
+  .header-portfolio {
     color: rgb(25, 25, 102);
     font-size: 64px;
     text-decoration: underline #007aff 5px;
   }
-  .header-education-content {
+  .header-portfolio-content {
     margin-bottom: 20px;
   }
-  .education-list{
+  .portfolio-list{
       display: flex;
       box-sizing: border-box;
       flex-direction: row;
       flex-wrap: wrap;
       border-left: 10px solid #007aff;
   }
-  .education-list-item{
-    margin-left: 10px;
+  .portfolio-list-item{
       display: block;
       box-sizing: border-box;
-      width: 100%;
-  }
-  .education-list-item h3{
-    width: fit-content;
-    background-color: blanchedalmond;
-  }
-  .education-list-item p.date{
-    width: fit-content;
-    background-color: blanchedalmond;
+      width: 33%;
   }
   @media only screen and (max-width: 1024px)
   {
-    .education {
+    .portfolio {
         margin-left: 20%;
       }
   }

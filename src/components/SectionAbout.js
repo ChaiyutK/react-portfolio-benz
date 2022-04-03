@@ -7,18 +7,18 @@ AOS.init();
 
 const SectionAbout = () => {
   return (
-    <section id="about" className="about" data-aos="fade-up">
-        <h1 className="header-about">
+    <section id="about" className="about">
+        <h1 className="header-about" data-aos="fade-up">
             About
         </h1>
-        <p className='header-about-content'>
+        <p className='header-about-content' data-aos="fade-up">
         Hello everyone i'm graduate from prince of Songkla University with Bachelor of Science Major computer of Science Second Class Honors GPA 3.28. My major is Computer Science.
         </p>
         <div className="about-content">
-            <div className="about-content-item aboutimage">
+            <div className="about-content-item aboutimage" data-aos="fade-right">
                 <img src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t31.18172-8/14500710_10202238536560446_19146877131162990_o.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGNHFDDbwf9wvw0TQzaxLerIg1gWuU6AVciDWBa5ToBVzK-BKkW6xluHemV4-P76PY&_nc_ohc=w0T0ox07hFgAX8pUROy&_nc_ht=scontent.fhdy4-1.fna&oh=00_AT_y1Gxj_Y_NzdHLPEft-AzMZpjGBmbzcIm1RDbDyG5tsQ&oe=626E662A" width="100%" />
             </div>
-            <div className="about-content-item aboutcontent">
+            <div className="about-content-item aboutcontent" data-aos="fade-left">
                 <h1>
                     Web Developer
                 </h1>

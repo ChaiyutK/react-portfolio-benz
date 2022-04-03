@@ -13,7 +13,7 @@ const SectionEducation = () => {
     <div className="education-list">
         <div className="education-list-item">
             <h3>Bachelor of Science Major computer of Science</h3>
-            <p>2016-2020</p>
+            <p className='date'>2016-2020</p>
         </div>
         <div className="education-list-item">
             <p>Prince of Songkla University, Hat Yai, TH</p>

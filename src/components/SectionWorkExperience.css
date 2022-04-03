@@ -1,40 +1,43 @@
-.education {
+.workexperience {
     width: 60vw;
     margin-left: 30%;
     margin-top: 50px;
   }
-  .header-education {
+  .header-workexperience {
     color: rgb(25, 25, 102);
     font-size: 64px;
     text-decoration: underline #007aff 5px;
   }
-  .header-education-content {
+  .header-workexperience-content {
     margin-bottom: 20px;
   }
-  .education-list{
+  .workexperience-list{
       display: flex;
       box-sizing: border-box;
       flex-direction: row;
       flex-wrap: wrap;
       border-left: 10px solid #007aff;
   }
-  .education-list-item{
+  .workexperience-list-item{
     margin-left: 10px;
       display: block;
       box-sizing: border-box;
       width: 100%;
   }
-  .education-list-item h3{
+  .workexperience-list-item ul{
+    list-style-type: none;
+  }
+  .workexperience-list-item p{
     width: fit-content;
     background-color: blanchedalmond;
   }
-  .education-list-item p.date{
+  .workexperience-list-item h3{
     width: fit-content;
     background-color: blanchedalmond;
   }
   @media only screen and (max-width: 1024px)
   {
-    .education {
+    .workexperience {
         margin-left: 20%;
       }
   }
