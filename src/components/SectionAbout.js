@@ -12,7 +12,7 @@ const SectionAbout = () => {
             About
         </h1>
         <p className='header-about-content'>
-        Hello everyone i'm graduate from prince of Songkla University with Bachelor of Science Major computer of Science Second Class Honors. My major is Computer Science. I'm looking for a job, I'm interested in Web Developer and Game Developer but i open for the others like App Developer.
+        Hello everyone i'm graduate from prince of Songkla University with Bachelor of Science Major computer of Science Second Class Honors GPA 3.28. My major is Computer Science.
         </p>
         <div className="about-content">
             <div className="about-content-item aboutimage">
@@ -23,13 +23,13 @@ const SectionAbout = () => {
                     Web Developer
                 </h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                I'm looking for a job, I'm interested in Web Developer and Game Developer but i open for the others like App Developer.
                 </p>
             <div className="about-content">
                 <div className="about-content-item aboutdetail">
                 <ul>
                     <li>Birthday: 3 January 1998</li>
-                    <li>Website: https://chaiyutk.github.io</li>
+                    <li>Website: https://chaiyutk.github.io/react-portfolio-benz</li>
                     <li>Phone: +66 64038 1113</li>
                     <li>City: Songkhla,THAILAND</li>
                 </ul>
@@ -43,7 +43,7 @@ const SectionAbout = () => {
                 </ul>
                 </div>
             </div>
-            <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
+            <p></p>
             </div>
         </div>
     </section>
