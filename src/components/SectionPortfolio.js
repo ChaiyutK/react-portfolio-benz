@@ -1,6 +1,8 @@
 import React from 'react';
 import './SectionPortfolio.css';
-
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
 
 const SectionPortfolio = () => {
     const portfolio = [{
@@ -30,7 +32,7 @@ const portfolio_item = portfolio.map((e,i)=>{
 })
 
   return (
-<section className='portfolio' data-aos="fade-up">
+<section id="portfolio" className='portfolio' data-aos="fade-up">
     <h1 className="header-portfolio">
         Portfolio
     </h1>

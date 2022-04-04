@@ -5,7 +5,7 @@ const SectionWorkExperience = () =>{
     return(
         <section className='workexperience' data-aos="fade-up">
     <h1 className="header-workexperience">
-    Work Experience
+    Work Exp.
     </h1>
     <div className="workexperience-list">
         <div className="workexperience-list-item">
