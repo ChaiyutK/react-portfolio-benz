@@ -4,8 +4,10 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-html {
+html,body {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .container{
   width: 100%;
