@@ -8,7 +8,7 @@ const SectionEducation = () => {
     return(
     <section className='education' data-aos="fade-up">
     <h1 className="header-education">
-        Edu.
+        Education
     </h1>
     <div className="education-list">
         <div className="education-list-item">
