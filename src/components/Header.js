@@ -7,7 +7,7 @@ import { IconContext } from 'react-icons';
 import {HiOutlineDocument} from 'react-icons/hi';
 import {GoMail} from 'react-icons/go';
 const Header = () =>{
-    const photoUrl ="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.6435-9/119435849_10208170376812745_7754834136294344952_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFvdijxx8kr0tNARA6SJP4QhgQV18LqUJqGBBXXwupQmia6L3pN1CXNHGpwT5U9jzM&_nc_ohc=BtkjMM2i7oQAX-nHYqm&_nc_ht=scontent.fhdy4-1.fna&oh=00_AT8FooyXzROhUcRptaLLfcxMo4XXdYKst7WssrX7sEszzQ&oe=6264B4B2"
+    const photoUrl ="https://scontent.fhdy3-1.fna.fbcdn.net/v/t1.6435-9/119435849_10208170376812745_7754834136294344952_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFvdijxx8kr0tNARA6SJP4QhgQV18LqUJqGBBXXwupQmia6L3pN1CXNHGpwT5U9jzM&_nc_ohc=fbDPaxSWfbEAX-T9f6-&_nc_ht=scontent.fhdy3-1.fna&oh=00_AT8q0aKmU2KFB1X873iKr43EZAsr0pFTWgRiaINTlVYsWA&oe=628C41B2";
     return(
         <header>
             <div className="sidebar" id="sidebar">
