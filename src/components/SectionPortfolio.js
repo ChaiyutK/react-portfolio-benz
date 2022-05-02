@@ -2,31 +2,53 @@ import React from 'react';
 import './SectionPortfolio.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import {FaGithub} from "react-icons/fa";
+import {FiLink} from "react-icons/fi";
 AOS.init();
 
 const SectionPortfolio = () => {
     const portfolio = [{
-        topic : "Veterinary Hospital Management System",
-        content : "this web-app is my final project of Project In Computer Science.Pet Hospital Management use for management about treatment in pet Hospital.",
-        image : "/public/images/PetHospitalProject.png"
+        topic : "VET Hospital Management System",
+        image : "https://i.imgur.com/U2WailS.png",
+        github : "https://github.com/ChaiyutK/Pet-Hospital-management-project",
+        link : "#"
     },
     {
         topic : "GOODSOUNDEFFECT",
-        content : "this website made for editor who want to download sound effect.",
-        image : "/public/images/GoodSoundEffect.png"
+        image : "https://i.imgur.com/jTdH6nh.png",
+        github : "https://github.com/ChaiyutK/GoodSoundEffect",
+        link : "https://goodsoundeffect.000webhostapp.com/"
     },
     {
         topic : "CREATEBLOCKCODE",
-        content : "this project creates when I internship in borntodev company this is 2.5D Tower Defender game this project create for beginner who want to be programmer because this game will teach player with visual scripting in game. I use C# and Bolt visual scripting to create this game.",
-        image : "/public/images/CreateBlockCodeProject.jpg"
+        image : "https://i.imgur.com/ZfZFLjf.jpg",
+        github : "#",
+        link : "#"
+    },
+    {
+        topic : "Portfolio Website 1",
+        image : "https://i.imgur.com/onYFpze.png",
+        github : "https://github.com/ChaiyutK/ChaiyutK.github.io",
+        link : "https://chaiyutk.github.io/"
+    },
+    {
+        topic : "Portfolio Website React",
+        image : "https://i.imgur.com/usqYdO0.png",
+        github : "https://github.com/ChaiyutK/react-portfolio-benz",
+        link : "https://chaiyutk.github.io/react-portfolio-benz/"
     }
+    
 ]
 
 const portfolio_item = portfolio.map((e,i)=>{
     return(
     <div className="portfolio-list-item" key={i}>
-        <h3>{e.topic}</h3>
-        <p>{e.content}</p>
+        <h4>{e.topic}</h4>
+    <div className='show-image'>
+        <img src={`${e.image}`} />
+        <a className="github" href={`${e.github}`} target="_blank"><FaGithub size={20} color="white"/></a>
+        <a className="link" href={`${e.link}`} target="_blank"><FiLink size={20} color="white"/></a>
+    </div>
     </div>
     );
 })
