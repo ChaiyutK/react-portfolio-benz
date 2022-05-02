@@ -8,7 +8,6 @@ const SectionHome = () => {
     const testText = "Developer";
     const [cursor,setCursor] = useState("|");
     const [textTyping,setTextTyping] = useState("");
-    let checkSidebar = true;
     const delay = ms => new Promise(res => setTimeout(res, ms));
     
     const typingText = async () =>{
@@ -51,9 +50,27 @@ const SectionHome = () => {
         }
         
     }
+
     useEffect(()=>{
         cursorTyping()
         typingText()
+        function handleResize() {
+        console.log("dsad");
+        if(window.innerWidth < 1024)
+        {
+            document.getElementById("openbtn").style.visibility = "visible";
+            document.getElementById("sidebar").style.transform = "translateX(-20rem)";
+            document.getElementById("openbtn").innerHTML = "☰";
+        }
+        else
+        {
+            document.getElementById("openbtn").style.visibility = "hidden";
+            document.getElementById("sidebar").style.transform = "translateX(0rem)";
+            document.getElementById("openbtn").innerHTML = "x";
+        }
+      }
+
+        window.addEventListener('resize', handleResize)
     },[])
     return (
     <section className='home'>

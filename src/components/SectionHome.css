@@ -24,6 +24,7 @@
   border-radius: 50%;
   color: white;
   z-index: 2;
+  visibility: hidden;
 }
 
 .home-image h1 {

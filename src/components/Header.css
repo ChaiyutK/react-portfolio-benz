@@ -64,10 +64,3 @@
 .sidebar-navbar-item span {
   margin-left: 10px;
 }
-
-@media only screen and (max-width: 1024px)
-{
-  .sidebar {
-    transform: translateX(-20rem);
-  }
-}
