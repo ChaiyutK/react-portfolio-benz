@@ -74,7 +74,7 @@ const SectionHome = () => {
     },[])
     return (
     <section className='home'>
-        <button className="openbtn" id='openbtn' onClick={openNav}>x</button>
+        <button className="openbtn" id='openbtn' onClick={openNav}>☰</button>
         <div className="home-image">
             <h1>Chaiyut Kongprawat</h1>
             <p>I'm <span>{textTyping}{cursor}</span></p>
