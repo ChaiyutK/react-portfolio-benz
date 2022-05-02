@@ -16,7 +16,7 @@ const SectionAbout = () => {
         </p>
         <div className="about-content">
             <div className="about-content-item aboutimage" data-aos="fade-right">
-                <img src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t31.18172-8/14500710_10202238536560446_19146877131162990_o.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGNHFDDbwf9wvw0TQzaxLerIg1gWuU6AVciDWBa5ToBVzK-BKkW6xluHemV4-P76PY&_nc_ohc=w0T0ox07hFgAX8pUROy&_nc_ht=scontent.fhdy4-1.fna&oh=00_AT_y1Gxj_Y_NzdHLPEft-AzMZpjGBmbzcIm1RDbDyG5tsQ&oe=626E662A" width="100%" />
+                <img src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t31.18172-8/14500710_10202238536560446_19146877131162990_o.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGNHFDDbwf9wvw0TQzaxLerIg1gWuU6AVciDWBa5ToBVzK-BKkW6xluHemV4-P76PY&_nc_ohc=h1NjKn879WEAX9r_ktp&_nc_ht=scontent.fhdy4-1.fna&oh=00_AT8vIrr0vddBM8pblJqPsQmmkVQRJ7mcrhB_UcyZPp5TAQ&oe=6295F32A" width="100%" />
             </div>
             <div className="about-content-item aboutcontent" data-aos="fade-left">
                 <h1>
