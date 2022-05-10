@@ -1,5 +1,8 @@
 import React from "react";
 import "./SectionAchievement.css";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
 
 const SectionAchievement = () =>{
     const achievementData = 
@@ -24,10 +27,10 @@ const SectionAchievement = () =>{
     const achievementElement = achievementData.map((e,i)=>{
         return(
             <div className="achievement-flexbox" key={i}>
-            <div className="achievement-box" >
+            <div className="achievement-box" data-aos="fade-up">
                 <p>{e.year}</p>
             </div>
-            <div className="achievement-box">
+            <div className="achievement-box" data-aos="fade-up">
                 <p>{e.detail}</p>
             </div>
             </div>

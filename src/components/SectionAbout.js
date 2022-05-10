@@ -6,6 +6,9 @@ import 'aos/dist/aos.css';
 AOS.init();
 
 const SectionAbout = () => {
+    const d = new Date();
+    const age = d.getFullYear()-1998;
+
   return (
     <section id="about" className="about">
         <h1 className="header-about" data-aos="fade-up">
@@ -29,6 +32,7 @@ const SectionAbout = () => {
                 <div className="about-content-item aboutdetail">
                 <ul>
                     <li>Birthday: 3 January 1998</li>
+                    <li>Military Status: Exempted by Being Undersize</li>
                     <li>Website: https://chaiyutk.github.io/react-portfolio-benz</li>
                     <li>Phone: +66 64038 1113</li>
                     <li>City: Songkhla,THAILAND</li>
@@ -36,7 +40,8 @@ const SectionAbout = () => {
                 </div>
                 <div className="about-content-item aboutdetail">
                 <ul>
-                    <li>Age: 24</li>
+                    <li>Age: {age}</li>
+                    <li>Marital Status: Single</li>
                     <li>Degree: Bachelor</li>
                     <li>E-mail: benzchaiyut.k@gmail.com</li>
                     <li>Freelance: Available</li>
