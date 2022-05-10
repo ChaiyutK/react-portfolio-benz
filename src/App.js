@@ -22,6 +22,7 @@ function App() {
     <SectionWorkExperience/>
     <SectionPortfolio/>
     <SectionContact/>
+    
     </div>
     </>
   );

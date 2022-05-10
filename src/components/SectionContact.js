@@ -10,8 +10,7 @@ const SectionContact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_hzhw3aw', 'template_qciao7x', form.current, 'igq8sa5wXizbNNYkB')
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
           alert("Thank you for contacting us!");
@@ -22,8 +21,9 @@ const SectionContact = () => {
       }
       );
   };
-
+  console.log(process.env.REACT_APP_SERVICE_ID)
   return (
+    
     <section className='contact' id="contact" data-aos="fade-up">
         <h1 className="header-contact">
         Contact Me

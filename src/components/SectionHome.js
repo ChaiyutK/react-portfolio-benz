@@ -55,7 +55,6 @@ const SectionHome = () => {
         cursorTyping()
         typingText()
         function handleResize() {
-        console.log("dsad");
         if(window.innerWidth < 1024)
         {
             document.getElementById("openbtn").style.visibility = "visible";
