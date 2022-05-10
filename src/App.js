@@ -7,6 +7,7 @@ import SectionEducation from './components/SectionEducation';
 import SectionWorkExperience from './components/SectionWorkExperience';
 import SectionPortfolio from './components/SectionPortfolio';
 import SectionAchievement from './components/SectionAchievement';
+import SectionContact from './components/SectionContact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <SectionAchievement/>
     <SectionWorkExperience/>
     <SectionPortfolio/>
+    <SectionContact/>
     </div>
     </>
   );

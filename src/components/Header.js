@@ -31,7 +31,7 @@ const Header = () =>{
                         <li className="sidebar-navbar-item"><a href="#"><BiHome className="sidebar-navbar-item-icon"/><span>Home</span></a></li>
                         <li className="sidebar-navbar-item"><a href="#about"><BsPerson className="sidebar-navbar-item-icon"/><span>About</span></a></li>
                         <li className="sidebar-navbar-item"><a href="#portfolio"><HiOutlineDocument className="sidebar-navbar-item-icon"/><span>Portfolio</span></a></li>
-                        <li className="sidebar-navbar-item"><a href="#"><GoMail className="sidebar-navbar-item-icon"/><span>Contact</span></a></li>
+                        <li className="sidebar-navbar-item"><a href="#contact"><GoMail className="sidebar-navbar-item-icon"/><span>Contact</span></a></li>
                     </ul>
                 </IconContext.Provider>
                 </div>
