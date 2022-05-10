@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portfolio-benz/static/css/main.57b9386f.css",
-    "main.js": "/react-portfolio-benz/static/js/main.26d3d76e.js",
+    "main.css": "/react-portfolio-benz/static/css/main.3c28c095.css",
+    "main.js": "/react-portfolio-benz/static/js/main.a2369230.js",
     "static/js/787.fcf34b08.chunk.js": "/react-portfolio-benz/static/js/787.fcf34b08.chunk.js",
     "static/media/homebg.jpg": "/react-portfolio-benz/static/media/homebg.b2cf4520bc9c36ac8c88.jpg",
-    "static/media/logo.svg": "/react-portfolio-benz/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-portfolio-benz/index.html",
-    "main.57b9386f.css.map": "/react-portfolio-benz/static/css/main.57b9386f.css.map",
-    "main.26d3d76e.js.map": "/react-portfolio-benz/static/js/main.26d3d76e.js.map",
+    "main.3c28c095.css.map": "/react-portfolio-benz/static/css/main.3c28c095.css.map",
+    "main.a2369230.js.map": "/react-portfolio-benz/static/js/main.a2369230.js.map",
     "787.fcf34b08.chunk.js.map": "/react-portfolio-benz/static/js/787.fcf34b08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57b9386f.css",
-    "static/js/main.26d3d76e.js"
+    "static/css/main.3c28c095.css",
+    "static/js/main.a2369230.js"
   ]
 }
