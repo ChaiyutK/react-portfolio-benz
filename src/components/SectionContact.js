@@ -21,7 +21,6 @@ const SectionContact = () => {
       }
       );
   };
-  console.log(process.env.REACT_APP_SERVICE_ID)
   return (
     
     <section className='contact' id="contact" data-aos="fade-up">
