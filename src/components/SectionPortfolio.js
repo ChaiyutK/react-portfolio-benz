@@ -46,8 +46,8 @@ const portfolio_item = portfolio.map((e,i)=>{
         <h4>{e.topic}</h4>
     <div className='show-image'>
         <img src={`${e.image}`} />
-        <a className="github" href={`${e.github}`} target="_blank"><FaGithub size={20} color="white"/></a>
-        <a className="link" href={`${e.link}`} target="_blank"><FiLink size={20} color="white"/></a>
+        <a className="github" href={`${e.github}`} rel="noreferrer" target="_blank"><FaGithub size={20} color="white"/></a>
+        <a className="link" href={`${e.link}`} rel="noreferrer" target="_blank"><FiLink size={20} color="white"/></a>
     </div>
     </div>
     );

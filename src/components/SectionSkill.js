@@ -14,7 +14,7 @@ const SectionSkill = () => {
             Skills
         </h1>
         <p className='header-skill-content'>
-        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+        The main area of my expertie is front-end development, HTML, CSS, JS, for building small and medium web apps.
         </p>
         <div className="skill-content">
                 <div className="skill-content-item">

@@ -12,7 +12,7 @@ const SectionAbout = () => {
             About
         </h1>
         <p className='header-about-content' data-aos="fade-up">
-        Hello everyone i'm graduate from prince of Songkla University with Bachelor of Science Major computer of Science Second Class Honors GPA 3.28. My major is Computer Science.
+        Hello everyone i'm graduate from Prince of Songkla University Hatyai Campus with Bachelor of Science Major computer of Science Second Class Honors GPA 3.28. My major is Computer Science.
         </p>
         <div className="about-content">
             <div className="about-content-item aboutimage" data-aos="fade-right">
@@ -23,7 +23,7 @@ const SectionAbout = () => {
                     Web Developer
                 </h1>
                 <p>
-                I'm looking for a job, I'm interested in Web Developer and Game Developer but i open for the others like App Developer.
+                I'm looking for a job, I'm interested in Web Developer and Front-end Developer but i open for the others like App Developer.
                 </p>
             <div className="about-content">
                 <div className="about-content-item aboutdetail">

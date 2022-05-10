@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import SectionHome from './components/SectionHome';
@@ -7,6 +6,7 @@ import SectionSkill from './components/SectionSkill';
 import SectionEducation from './components/SectionEducation';
 import SectionWorkExperience from './components/SectionWorkExperience';
 import SectionPortfolio from './components/SectionPortfolio';
+import SectionAchievement from './components/SectionAchievement';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
     <SectionAbout/>
     <SectionSkill/>
     <SectionEducation/>
+    <SectionAchievement/>
     <SectionWorkExperience/>
     <SectionPortfolio/>
     </div>

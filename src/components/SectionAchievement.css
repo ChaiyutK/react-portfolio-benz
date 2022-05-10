@@ -1,0 +1,28 @@
+.achievement{
+  width: 60vw;
+  margin-left: 30%;
+  margin-top: 50px;
+}
+.header-achievement {
+    color: rgb(25, 25, 102);
+    font-size: 48px;
+    text-decoration: underline #007aff 5px;
+  }
+.achievement-flexbox{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    border-left: 10px solid #007aff;
+}
+.achievement-box{
+    display: block;
+    padding-left: 1%;
+    width: 48%;
+    border-bottom: 5px solid #007aff;
+}
+@media only screen and (max-width: 1024px)
+  {
+    .achievement {
+        margin-left: 20%;
+      }
+  }
