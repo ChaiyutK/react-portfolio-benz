@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-portfolio-benz/static/css/main.3c28c095.css",
-    "main.js": "/react-portfolio-benz/static/js/main.a2369230.js",
+    "main.js": "/react-portfolio-benz/static/js/main.6cef158d.js",
     "static/js/787.fcf34b08.chunk.js": "/react-portfolio-benz/static/js/787.fcf34b08.chunk.js",
     "static/media/homebg.jpg": "/react-portfolio-benz/static/media/homebg.b2cf4520bc9c36ac8c88.jpg",
     "index.html": "/react-portfolio-benz/index.html",
     "main.3c28c095.css.map": "/react-portfolio-benz/static/css/main.3c28c095.css.map",
-    "main.a2369230.js.map": "/react-portfolio-benz/static/js/main.a2369230.js.map",
+    "main.6cef158d.js.map": "/react-portfolio-benz/static/js/main.6cef158d.js.map",
     "787.fcf34b08.chunk.js.map": "/react-portfolio-benz/static/js/787.fcf34b08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c28c095.css",
-    "static/js/main.a2369230.js"
+    "static/js/main.6cef158d.js"
   ]
 }
