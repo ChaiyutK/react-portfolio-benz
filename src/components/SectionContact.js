@@ -32,19 +32,19 @@ const SectionContact = () => {
             <div className='contact-flexbox'>
                 <div className='contact-item size50' data-aos="fade-right">
                 <label>Your Name</label><br />
-                <input className='contact-normal' type="text" name="name" placeholder='Name'/>
+                <input className='contact-normal' type="text" name="name" placeholder='Name' required/>
                 </div>
                 <div className='contact-item size50' data-aos="fade-left">
                 <label>Your Email</label><br />
-                <input className='contact-normal' type="email" name="email" placeholder='E-mail' />
+                <input className='contact-normal' type="email" name="email" placeholder='E-mail' required/>
                 </div>
                 <div className='contact-item size100' data-aos="fade-up">
                 <label>Subject</label><br />
-                <input className='contact-normal' type="text" name="subject" placeholder='subject' />
+                <input className='contact-normal' type="text" name="subject" placeholder='subject' required/>
                 </div>
                 <div className='contact-item size100' data-aos="fade-up">
                 <label>Message</label><br />
-                <textarea name="message" />
+                <textarea name="message" required/>
                 </div>
                 <div className='contact-item size100'>
                 <input className='contact-submit' type="submit" value="Send" />
