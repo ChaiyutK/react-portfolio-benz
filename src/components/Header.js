@@ -12,7 +12,7 @@ const Header = () =>{
         <header>
             <div className="sidebar" id="sidebar">
                 <div className="sidebar-profile">
-                    <img className="sidebar-profile-image" src={photoUrl} alt="profile" width="104px" height="104px" />
+                    <img className="sidebar-profile-image" src={process.env.PUBLIC_URL + '/images/profile.jpg'} alt="profile" width="104px" height="104px" />
                     <h1>Chaiyut</h1>
                     <h1>Kongprawat</h1>
                     <IconContext.Provider value={{color:"white",size:"15"}}>
