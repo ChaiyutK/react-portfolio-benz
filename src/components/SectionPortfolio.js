@@ -36,9 +36,21 @@ const SectionPortfolio = () => {
         image : "https://i.imgur.com/usqYdO0.png",
         github : "https://github.com/ChaiyutK/react-portfolio-benz",
         link : "https://chaiyutk.github.io/react-portfolio-benz/"
+    },
+    {
+        topic : "CryptoCurrency Price List",
+        image : "https://i.imgur.com/pHvMRKY.png",
+        github : "https://github.com/ChaiyutK/crypto-check",
+        link : "https://zingy-salamander-cfbee0.netlify.app/"
+    },
+    {
+        topic : "Weather forecast Webapp",
+        image : "https://i.imgur.com/lsroXwA.png",
+        github : "https://github.com/ChaiyutK/weather-webapp",
+        link : "https://genuine-valkyrie-7e13d8.netlify.app/"
     }
-    
 ]
+
 
 const portfolio_item = portfolio.map((e,i)=>{
     return(
