@@ -20,6 +20,9 @@
     width: 48%;
     border-bottom: 5px solid #007aff;
 }
+.verify{
+  margin-left: 10px;
+}
 @media only screen and (max-width: 1024px)
   {
     .achievement {
