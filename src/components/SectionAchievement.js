@@ -8,6 +8,11 @@ const SectionAchievement = () =>{
     const achievementData = 
     [
         {
+            year:"2022",
+            detail:"Course Certificate Programming with JavaScript | Online non-credit course authorized by Meta",
+            link:"https://www.coursera.org/account/accomplishments/verify/VXCVAN6TLQZK"
+        },
+        {
             year:"2019",
             detail:"2ND of Web Programming competition, 18th ITM Network game at Prince of Songkla University,Hat Yai"
         },
@@ -25,16 +30,33 @@ const SectionAchievement = () =>{
         }
     ]
     const achievementElement = achievementData.map((e,i)=>{
+        if(e.year == 2022)
+        {
         return(
-            <div className="achievement-flexbox" key={i}>
-            <div className="achievement-box" data-aos="fade-up">
-                <p>{e.year}</p>
-            </div>
-            <div className="achievement-box" data-aos="fade-up">
-                <p>{e.detail}</p>
-            </div>
-            </div>
-        );
+                <div className="achievement-flexbox" key={i}>
+                <div className="achievement-box" data-aos="fade-up">
+                    <p>{e.year}</p>
+                </div>
+                <div className="achievement-box" data-aos="fade-up">
+                    <p>{e.detail}<a className="verify" href={e.link} target="_blank">Verify</a></p>
+                    
+                </div>
+                </div>
+            );  
+        }
+        else{
+            return(
+                <div className="achievement-flexbox" key={i}>
+                <div className="achievement-box" data-aos="fade-up">
+                    <p>{e.year}</p>
+                </div>
+                <div className="achievement-box" data-aos="fade-up">
+                    <p>{e.detail}</p>
+                </div>
+                </div>
+            );
+        }
+        
     })
 
     return(
