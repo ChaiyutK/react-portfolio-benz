@@ -21,7 +21,7 @@ const SectionWorkExperience = () =>{
         </div>
         <div className="workexperience-list-item">
             <h3>Administrator at DSF Pet Hospital</h3>
-            <p>Oct 2020 - Apr 2022</p>
+            <p>Oct 2020 - Present</p>
         </div>
         <div className="workexperience-list-item">
         <ul>

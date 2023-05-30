@@ -48,6 +48,12 @@ const SectionPortfolio = () => {
         image : "https://i.imgur.com/lsroXwA.png",
         github : "https://github.com/ChaiyutK/weather-webapp",
         link : "https://genuine-valkyrie-7e13d8.netlify.app/"
+    },
+    {
+        topic : "Where in the world?",
+        image : "https://i.imgur.com/Fz0QEUn.jpeg",
+        github : "https://github.com/ChaiyutK/rest-countries-api-with-color-theme-switcher-master",
+        link : "https://capable-croquembouche-bbb4bc.netlify.app/"
     }
 ]
 
